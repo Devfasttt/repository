@@ -3,7 +3,7 @@
 // uuidv4()
 // const io = require('socket.io')(3000, {
 //     cors: {
-//         origin: ["http://localhost:5173", "https://admin.socket.io/" ],
+//         origin: ["http://localhost:5173", "https://admin.socket.io/" ,"https://630749cfdea4b575061ddc9e--veeraprogrammer-makes-great-sites.netlify.app/"],
 //         methods: ["GET", "POST"],
 //         allowedHeaders: ["Access-Control-Allow-Origin"],
 // }})
