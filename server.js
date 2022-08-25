@@ -45,7 +45,7 @@ const { instrument } = require('@socket.io/admin-ui')
 const { v4: uuidv4 } = require('uuid')
 uuidv4()
 
-const io = require("socket.io")(3000, {
+const io = require("socket.io")(process.env.PORT||3000, {
     cors: {
       origin: ["http://localhost:5173", "https://admin.socket.io/"],
       methods: ["GET", "POST"]
