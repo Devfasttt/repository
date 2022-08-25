@@ -47,7 +47,7 @@ uuidv4()
 
 const io = require("socket.io")(process.env.PORT||3000, {
     cors: {
-      origin: ["http://localhost:5173", "https://admin.socket.io/"],
+      origin: ["https://gamed2.netlify.app/","http://localhost:5173", "https://admin.socket.io/"],
       methods: ["GET", "POST"]
     },
 
